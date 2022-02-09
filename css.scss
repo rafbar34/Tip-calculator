@@ -1,0 +1,173 @@
+
+$maincolor: rgb(171, 204, 171);
+$white:white;
+$dark:rgb(6, 82, 6);
+$green:rgb(18, 161, 18);
+$grey:rgb(214, 212, 212);
+$Verydarkcyan: hsl(183, 100%, 15%);
+$Darkgrayishcyan: hsl(186, 14%, 43%);
+$Darkgrayishcyan: hsl(184, 14%, 56%);
+$Lightgrayishcyan: hsl(185, 41%, 84%);
+$Lightgrayishcyan: hsl(189, 41%, 97%);
+
+$Strongcyan: hsl(172, 67%, 45%);
+
+
+
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: $Strongcyan;
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+   
+  
+    
+    
+}
+
+
+
+.box{
+    
+    background-color: white;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.box_tip{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content:space-around;
+}
+
+   
+    
+    
+    .box_tip--tipnumber{
+         display: flex;
+        background-color: $grey;
+        width: 75%;
+        height: 50px;
+        font-size: 24px;
+        padding: 5px; 
+        text-align: end; 
+    
+}
+.box_tip--buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.box_tip--buttons--procent{
+   
+    
+    padding: 10px 15px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: $Verydarkcyan;
+    color: white;
+    font-size: 17px;
+    transition: 0.25s;
+}
+.box_tip--buttons--procent:hover{
+    background-color:$Strongcyan;
+    
+}
+p{
+    padding:15px 10px;
+    
+}
+.box_tip--people{
+    background-color: $grey;
+    width: 75%;
+    height: 50px;
+    text-align: end;
+
+    font-size: 24px;
+
+}
+
+
+.box_count{
+    background-color: $Verydarkcyan;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 75%;
+    flex-direction:column;
+    color: $white;
+    justify-content: flex-start;
+    border-radius: 10px;
+   
+    
+    .box_count--reset{
+        border-radius: 10px; 
+        transition: 0.25s;
+        margin: 50% auto 0%;
+        width: 50%;
+        height: 40px;
+        background-color:$maincolor ;
+      }
+      .box_count--reset:hover{
+          
+              background-color:$Strongcyan;
+              
+          
+      }
+}
+.box_count--text-box{
+    margin: 20px;
+   
+.box_count--text{
+  
+    padding:5px;
+    
+
+}
+.box_count--text2{
+    padding:5px;
+    color:$Darkgrayishcyan ;
+    
+}
+
+.box_count--text-amount{
+    display: flex;
+    color:$green;
+    justify-content: flex-end;
+    font-size: 44px;
+    
+}}
+.box_count--text-box2{
+    margin: 20px;
+    
+.box_count--text2{
+    padding:5px;
+    color:$Darkgrayishcyan ;
+    
+}
+.box_count--text-total{
+    display: flex;
+    color:$green;
+    justify-content: flex-end;
+    font-size: 44px;
+}
+
+
+    
+}

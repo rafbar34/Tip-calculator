@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Poppins:wght@200;400;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+<main>
+  <section class="box">
+<section class="box_tip">
+  <h1>Bill</h1>
+     <input type="number" class="box_tip--tipnumber" value="0">
+  <h1>Select Tip %</h1>
+  <section class="box_tip--buttons">
+   
+  <button class="box_tip--buttons--procent procent5"  >5%</button>
+
+  <button class="box_tip--buttons--procent procent10" ><b>10%</b></button>
+  <button class="box_tip--buttons--procent procent15" ><b>15%</b></button>
+  <button class="box_tip--buttons--procent procent25" ><b>25%</b></button>
+  <button class="box_tip--buttons--procent procent50" ><b>50%</b></button>
+  <input type="button" value="Custom" class="box_tip--buttons--procent custom">
+ </section>
+ <h1> Number of People</h1>
+ <input type="number" class="box_tip--people" value="0"></input>
+</section>
+<section class="box_count">
+  <div class="box_count--text-box">
+  <p class="box_count--text2"> / person</p>
+
+ <section class="box_count--text-amount">$0</section>
+</div>
+<div class="box_count--text-box2">
+ <p class="box_count--text"> Total
+ <p class="box_count--text2"> / person</p>
+ <section class="box_count--text-total">$0</section>
+</div>
+ 
+  <button class="box_count--reset">Reset</button> 
+  
+</section>
+  </section>
+</main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script  src="./js.js" ></script>
+</body>
+</html>
